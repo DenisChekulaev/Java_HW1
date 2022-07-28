@@ -9,7 +9,7 @@ public class Truck {
 
     }
 
-    void calculete(int res) {                 // Подор машины в завимости от веса груза
+    void calculete(int res) {                 // Подбор машины в завимости от веса груза
         if (res < 500) {
             System.out.println("На заказ приедет Газель");
         } else if (res >= 500 && res < 4500) {
