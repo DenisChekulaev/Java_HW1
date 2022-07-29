@@ -1,5 +1,5 @@
 import java.io.*;
-public class objectTruck {
+public class ObjectTruck {
 
     public static void main(String[] args)
             throws IOException {
@@ -12,9 +12,9 @@ public class objectTruck {
         System.out.println("Вес заказа: " + res);
 
         Gazelle.calculete(400);
-        Gazelle.printParametersAvto();
+        Gazelle.printParameters();
         Truck Kamaz = new Truck(4500, "Камаз");
-        Kamaz.printParametersAvto();
+        Kamaz.printParameters();
         Kamaz.calculete(3000);
 
     }
