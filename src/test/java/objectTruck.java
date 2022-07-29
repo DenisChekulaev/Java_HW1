@@ -3,7 +3,7 @@ public class ObjectTruck {
 
     public static void main(String[] args)
             throws IOException {
-        Truck Gazelle = new Truck(500, "Газель");
+        Truck gazelle = new Truck(500, "Газель");
 
         BufferedReader obj = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Введите вес вашего заказа:\n");
@@ -11,11 +11,11 @@ public class ObjectTruck {
 
         System.out.println("Вес заказа: " + res);
 
-        Gazelle.calculete(400);
+        Gazelle.calculate(400);
         Gazelle.printParameters();
-        Truck Kamaz = new Truck(4500, "Камаз");
+        Truck kamaz = new Truck(4500, "Камаз");
         Kamaz.printParameters();
-        Kamaz.calculete(3000);
+        Kamaz.calculate(3000);
 
     }
 }
