@@ -9,7 +9,7 @@ public class Truck {
 
     }
 
-    void calculete(int res) {                 // Подбор машины в завимости от веса груза
+    void calculate(int res) {                 // Подбор машины в завимости от веса груза
         if (res < 500) {
             System.out.println("На заказ приедет Газель");
         } else if (res >= 500 && res < 4500) {
@@ -19,7 +19,7 @@ public class Truck {
         }
     }
 
-    void printParametersAvto() {      // Вывод парметров автомобиля
+    void printParameters() {      // Вывод парметров автомобиля
         System.out.println("Модель машины: " + model + "\nМаксимальная масса: " + maxMass);
     }
 }
